@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pypalette"
+version = "0.1.0"
+description = ""
+authors = ["AlexAuragan <alexauragan@gmail.com>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+opencv-python = "^4.10.0.84"
+scikit-learn = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
